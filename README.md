@@ -1,6 +1,7 @@
   
+                        30 Days Of JavaScript Solutions
 
-           # 30-Days-Of-Javascript-Solutions
+
 
 Welcome to my repository..
 
