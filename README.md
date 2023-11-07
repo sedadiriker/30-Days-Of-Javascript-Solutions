@@ -1,9 +1,6 @@
   
 
-
-            Thanks for your contribution 
-           #30DaysOfJavaScript Challenge
-
+           # 30-Days-Of-Javascript-Solutions
 
 Welcome to my repository..
 
