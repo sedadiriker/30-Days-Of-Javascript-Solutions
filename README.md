@@ -14,7 +14,8 @@
 
 <div>
 <h3 align="center">Welcome to my repository</h3>
-
+<br/><br/><br/>
+<p align="center">console.log(month + " has 28 days.")</p>
 
 
 </div>
