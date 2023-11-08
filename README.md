@@ -15,7 +15,7 @@
 <div>
 <h3 align="center">Welcome to my repository</h3>
 <br/><br/><br/>
-<p align="center">console.log(month + " has 28 days.")</p>
+<p align="center">cPlease let me know what you do not want to add or where you find it wrong. Have a good coding...</p>
 
 
 </div>
