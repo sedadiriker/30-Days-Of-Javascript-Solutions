@@ -257,7 +257,7 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 13. Develop a small script which generate array of 5 random numbers
 
     ```js
-    const randomNumbers = [];
+    let randomNumbers = [];
     for (let i = 0; i < 5; i++) {
         randomNumbers.push(Math.floor(Math.random() * 100));
     }
@@ -267,7 +267,7 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
 
     ```js
-    const numbers = [];
+    let numbers = [];
     while(numbers.length < 5) {
         let x = Math.floor(Math.random() * 6);
         if(!numbers.includes(x)) {
@@ -280,17 +280,15 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 15. Develop a small script which generate a six characters random id:
 
     ```js
-    let chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
-    const script = [];
+    const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+    let ıd = '';
 
-    while (script.length < 6) {
+    while (ıd.length < 6) {
         let ındex = Math.floor(Math.random() * chars.length);
-        let charsIn = chars[ındex];
-        if (!script.includes(charsIn)) {
-            script.push(charsIn);
-        }
+        let charsIn = chars[ındex]    
+            ıd += charsIn       
     }
-    console.log(script.join(''));
+    console.log(ıd);
     ```
 
 <h2>Exercises: Level 2</h2>
@@ -298,21 +296,21 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 1. Develop a small script which generate any number of characters random id:
 
     ```js
-    let chars = "0123456789abcdefghiklmnopqrstuvwxyz";
-    let script = [];
+    const chars = "0123456789abcdefghiklmnopqrstuvwxyz";
+    let ıd = '';
     for(let i = 0; i < Math.floor(Math.random() * 25); i++) {
         let ındex = Math.floor(Math.random() * chars.length);
-        script.push(chars[ındex]);
+        ıd += chars[ındex];
     }
 
-    console.log(script.join(''));
+    console.log(ıd);
     ```
 
 2. Write a script which generates a random hexadecimal number.
 
     ```js
     const characters = '0123456789abcdef';
-    const hexadecimalNumber = '#';
+    let hexadecimalNumber = '#';
     for(let i = 0; i < 6; i++) {
         let ındex = Math.floor(Math.random() * characters.length);
         hexadecimalNumber += characters[ındex];
