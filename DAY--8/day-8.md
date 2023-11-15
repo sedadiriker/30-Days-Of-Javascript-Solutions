@@ -1,4 +1,5 @@
 <h2>Exercises: Level 1</h2>
+
 1. Create an empty object called dog
 
     ```js
