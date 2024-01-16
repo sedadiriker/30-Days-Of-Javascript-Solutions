@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+
+.wrapper span{
+    font-size: 5rem;
+}
+
+.wrapper h2{
+    text-decoration: underline;
+}
+
+.wrapper p{
+    width: 13%;
+    margin: auto;
+    padding: 12px;
+}
+
+.wrapper li{
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 3px;
+}
+
